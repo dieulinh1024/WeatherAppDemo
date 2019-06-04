@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="toolbar_title_forecast">Forecast</string>
+    <string name="toolbar_title_detail">Weather Detail</string>
+    <string name="action_add_place">+ Add Place</string>
+    <string name="action_details">More details</string>
+    <string name="action_forecast">5-day forecast</string>
+    <string name="detail_location">Location:</string>
+    <string name="detail_temperature">Temperature:</string>
+    <string name="detail_description">Description:</string>
+    <string name="detail_max_temp">Maximum temperature:</string>
+    <string name="detail_min_temp">Minimum temperature:</string>
+    <string name="detail_humidity">Humidity:</string>
+    <string name="detail_pressure">Pressure:</string>
+    <string name="detail_sea_level">Atmospheric pressure on the sea level:</string>
+    <string name="detail_grnd_level">Atmospheric pressure on the ground level:</string>
+    <string name="detail_wind_speed">Wind speed:</string>
+    <string name="detail_wind_direction">Wind direction:</string>
+    <string name="detail_cloudiness">Cloudiness:</string>
+    <string name="detail_visibility">Visibility:</string>
+    <string name="detail_rain_volume">Rain volume:</string>
+    <string name="detail_snow_volume">Snow volume:</string>
+    <string name="detail_sunrise">Sunrise:</string>
+    <string name="detail_sunset">Sunset:</string>
+    <string name="title_5_days_forecast">5 Days Forecast</string>
+    <string name="dialog_search">Search</string>
+    <string name="dialog_title_search">Find city</string>
+    <string name="temp_celsius_unit"> Celsius</string>
+    <string name="temp_fahrenheit_unit">Fahrenheit</string>
+</resources>

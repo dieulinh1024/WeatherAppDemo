@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.uet.dieulinh.weatherappdemo.view.fragment.StartFragment"
+        tools:layout="@layout/fragment_start">
+
+        <action
+            android:id="@+id/openMainScreen"
+            app:destination="@id/mainFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.uet.dieulinh.weatherappdemo.view.fragment.HomeFragment"
+        tools:layout="@layout/fragment_main">
+
+        <argument
+            android:name="cityId"
+            android:defaultValue=" "
+            app:argType="string" />
+
+        <action
+            android:id="@+id/openDetailScreen"
+            app:destination="@id/detailFragment" />
+
+        <action
+            android:id="@+id/openDaysForecastScreen"
+            app:destination="@id/daysForecastFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.uet.dieulinh.weatherappdemo.view.fragment.WeatherDetailFragment"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="cityId"
+            android:defaultValue=" "
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/daysForecastFragment"
+        android:name="com.uet.dieulinh.weatherappdemo.view.fragment.ForecastFragment"
+        tools:layout="@layout/fragment_forecast">
+
+        <argument
+            android:name="cityId"
+            android:defaultValue=" "
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>
